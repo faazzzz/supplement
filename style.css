@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.main{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.main2{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.navbar .container-fluid .collapse ul li a{
+    font-size: 10px;
+    color: rgb(61, 52, 52);
+    font-weight: bold;
+    
+}
+.navbar .container-fluid .collapse ul li{
+    margin-left: 10px;
+}
+
+.navbar .container-fluid .collapse ul li img{
+    
+}
+.navbar{
+    margin-bottom: 0;
+    
+    border-bottom: 1px solid rgb(151, 145, 145);
+}
+.first{
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+}
+#head1{
+    font-size: 12px;
+    color: rgb(143, 137, 137);
+    /* font-weight: bold; */
+    
+}
+#head2{
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(75, 72, 72);
+    
+}
+.texts{
+    line-height: 14px;
+    margin-top: 120px;
+}
+.first .main .container .row .col-lg-4{
+    text-align: justify;
+    
+    
+    
+    
+}
+.first .main .container .row .col-lg-4 button{
+    background-image: linear-gradient(to right, rgb(219, 181, 181),rgb(161, 157, 148));
+    border-radius: 50px;
+}
+.second{
+    margin: 0;
+    padding: 0;
+}
+.thired{
+    margin: 0;
+    padding: 0;
+}
+
+#img1{
+   width: 100px;
+   
+}
+
+#second .d-flex .p-0 .box1{
+    padding: 10px;
+    background-color: rgb(241, 247, 247);
+}
+#second .d-flex .p-0 .box2{
+    padding: 10px;
+    background-color: rgb(235, 241, 241);
+}
+#second .d-flex .p-0 .box3{
+    padding: 10px;
+    background-color: rgb(241, 247, 247);
+}
+#second .d-flex .p-0 .box4{
+    padding: 10px;
+    background-color: rgb(235, 241, 241);
+}
+
+#second .d-flex .p-0 .box1, .box2, .box3 , .box4 p{
+    font-size: 11px;
+    color: rgb(97, 93, 93);
+    font-weight: 1.1;
+    font-weight: bold;
+}
+#second .d-flex .p-0 .box1 h6{
+    color: rgb(118, 214, 118);
+}
+#second .d-flex .p-0 .box2 h6{
+    color: rgb(118, 214, 118);
+}
+#second .d-flex .p-0 .box3 h6{
+    color: rgb(118, 214, 118);
+}
+#second .d-flex .p-0 .box4 h6{
+    color: rgb(118, 214, 118);
+}
+#thired .para1{
+    font-size: 8px;
+}
+.contact .linksss a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.contact{
+    padding: 80px;
+}
+.contact .linksss .aa{
+    margin-left: 23px;
+}
+
+.contact p{
+    font-size: 10px;
+    color: white;
+}
+
+
+@media(max-width:450px){
+    
+   
+    .main{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .main2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    body{
+        padding-left: -1px;
+        margin-right: 4px;
+    }
+    
+    .first{
+        background-size: cover;
+        background-image: none;
+        background-image: url(images/bg_2.png);
+        width: 100vw;
+        height: 100vh;
+    }
+    #head2{
+        font-size: 26px;
+    }
+    .para1{
+        font-size: 14px;
+    }
+    #br1{
+        display: none;
+    }
+    .texts{
+        margin: 0;
+
+    
+    }
+    .texts p{
+        width: 260px;
+    }
+    #img1{
+        width: 50px;
+    }
+    
+    
+    #thired{
+        padding: 10px;
+        
+    }
+
+
+    .cards .row .col{
+        width: 100vw;
+    }
+    #hid{
+        display: none;
+    }
+    #linkss .container .row .col-lg-3 {
+        margin-left: 50px;
+        
+       
+
+    }
+    #linkss .container .row {
+        margin-top: -20px;
+    }
+    .contact{
+        width: 100vw;
+        padding: 20px;
+        
+    }
+    .cont{
+        padding: o;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    
+    *{
+        overflow-x: hidden;
+    }
+}
+
+
+
+@media (max-width:450px) {
+
+    .texts{
+        margin-top: 120px;
+    }
+}
+@media(max-width:720px){
+    .navbar .container-fluid .collapse ul li a{
+        
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .navbar .container-fluid .collapse ul li img{
+        width: 15px;
+        
+        
+    }
+}
+
+@media(max-width:768px){
+    .main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+@media(max-width:1050px){
+    #head2{
+        font-size: 28px;
+        
+    }
+
+}
